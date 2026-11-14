@@ -17,7 +17,7 @@ export const about = [
   "I'm a backend-focused software engineer at Pacific Life, where I build Java and Spring Boot services on a microservice architecture. I'm at my best working on both the design and the engineering of a product, and I care about writing code that's clean, readable, and built to scale.",
   "I've also gone deep on the insurance domain itself. Learning the products down to the nitty-gritty has made me a stronger developer: I understand why a rule exists before I write the code for it, and my eye for detail catches problems before they reach production.",
   "I was recently named the AI Champion for Pacific Life's Workforce Benefits Division (WBD), recognizing my work on our AI workflows, including ORCA, our division's RAG chatbot, and the MCP servers I'm implementing now. On the side I'm building PA Sim, an AI clinical training platform with a realtime voice patient simulator.",
-  "Outside of work, you'll find me on the soccer field, out hiking and camping, playing video games, or on the slopes. I've recently gotten into snowboarding.",
+  "Outside of work, you'll find me on the soccer field, out hiking and camping, playing video games, or on the slopes.",
 ];
 
 export type Experience = {
@@ -89,8 +89,8 @@ export const projects: Project[] = [
       "Created safety guardrails for API billing through a three-layer server-side session enforcement that tracks the countdown, maintains a tool execution leash, and keeps a session ledger for tracing usage.",
     ],
     tech: ["Node.js", "TypeScript", "PostgreSQL", "WebRTC", "OpenAI Realtime API"],
-    github: undefined,
-    live: undefined,
+    github: "https://github.com/carsonjc04/PA-Sim",
+    live: "https://pa-sim.vercel.app",
   },
   {
     name: "ORCA",

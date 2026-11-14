@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Spotlight from "@/components/Spotlight";
 import SectionNav from "@/components/SectionNav";
 import { ArrowUpRight, DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon } from "@/components/icons";
@@ -65,6 +66,14 @@ export default function Home() {
           {/* Left column */}
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
+              <Image
+                src="/headshot.jpg"
+                alt="Portrait of Carson Christensen"
+                width={112}
+                height={112}
+                priority
+                className="mb-6 h-24 w-24 rounded-full object-cover ring-2 ring-accent/40 ring-offset-4 ring-offset-bg sm:h-28 sm:w-28 lg:h-24 lg:w-24"
+              />
               <h1 className="text-4xl font-bold tracking-tight text-fg sm:text-5xl">
                 {profile.name}
               </h1>

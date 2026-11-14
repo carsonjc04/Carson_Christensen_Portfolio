@@ -26,7 +26,7 @@ export default function SectionNav() {
   }, []);
 
   return (
-    <nav aria-label="Sections" className="hidden lg:block mt-16">
+    <nav aria-label="Sections" className="hidden lg:block mt-12">
       <ul className="w-max space-y-1">
         {sections.map((s) => {
           const isActive = active === s.id;
